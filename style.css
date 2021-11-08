@@ -1,0 +1,121 @@
+ /* animasi navbar */
+*,
+*:before
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0.5px;
+
+}
+.header a:after {
+    content: "";
+    position: absolute;
+    background-color: #980000;
+    height:  3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+    
+}
+.header a:hover:after {
+    width: 100%;
+
+}
+
+
+/* Ini adalah Komentar di CSS */
+body {
+    background-color: #980000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    
+}
+
+
+/* navbar */
+.header{
+
+    height: 80px;
+    background-color: black ;
+
+}
+.header-logo {
+
+    float: left;
+    font-size: 15px;
+    margin-top: 30px;
+    color: white;
+    margin-left: 65px;
+  }
+ .header ul li {
+
+    
+    display: inline-block;
+    margin-right: 28px;
+    margin-top: 30px;
+
+}
+.header-list {
+    margin-left: 600px;
+}
+.header-list a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/* jumbotron */
+.container {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+    margin-top: 138px;
+    font-size: 60px;
+}
+.container p {
+    color: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.more {
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+}
+.osis {
+
+    margin-left: 100px;
+}
+.text {
+    font-size: 36px;
+}
+.smkn2 {
+    font-size: 20px;
+}
+
+
+/* about */
+.textabout a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.tentang {
+    font-size: 15px;
+}
+.text {
+    font-size: 56px;
+}
+.visimisi {
+    font-size: 15px;
+}
